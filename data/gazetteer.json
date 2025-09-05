@@ -1,0 +1,7 @@
+{
+  "algorithm": ["variational auto-encoders", "gan", "transformer", "decision tree"],
+  "dataset": ["mnist", "cifar-10", "uci heart disease", "coco captions"],
+  "task": ["anomaly detection", "sentiment analysis", "image generation", "text summarization"],
+  "tool-or-framework": ["pytorch", "hugging face", "scikit-learn", "cohere", "langchain"],
+  "use-case": ["legal document classification", "fraud detection", "medical image diagnosis"]
+}
