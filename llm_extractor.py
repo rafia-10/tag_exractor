@@ -12,7 +12,7 @@ class Tags(BaseModel):
 class LLMExtractor:
     def __init__(self):
         self.llm = ChatGroq(api_key=groq_api_key,
-                        model="llama-3.1-70b-versatile",
+                        model="llama-3.1-8b-instant",
                         temperature=0.3)
         self.parser = PydanticOutputParser(pydantic_object=Tags)
         self.prompt = ChatPromptTemplate.from_template(
